@@ -1,6 +1,6 @@
 # escape-ts
 
-JS 标准库 escape 和 unescape 方法的 TypeScript 实现。
+JS 标准库方法 escape 和 unescape 的 TypeScript 实现。
 
 [![npm version](https://img.shields.io/npm/v/escape-ts)](https://www.npmjs.com/package/escape-ts)
 
