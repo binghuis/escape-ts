@@ -10,7 +10,7 @@ const hex = function (code: number, length: number) {
   return result;
 };
 
-export function escapeHtml(string: string) {
+export function escapeString(string: string) {
   const str = string;
   let result = "";
   const length = str.length;

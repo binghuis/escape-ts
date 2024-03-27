@@ -1,2 +1,2 @@
-export { escapeHtml } from "./escape";
-export { unescapeHtml } from "./unescape";
+export { escapeString } from "./escape";
+export { unescapeString } from "./unescape";

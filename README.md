@@ -1,6 +1,6 @@
 # escape-ts
 
-此项目 `escape` 和 `unescape` 是 [JS 标准库](https://github.com/zloirock/core-js) 对应方法的 TypeScript 实现。
+此项目方法 `escapeString`、`unescapeString` 是 [JS 标准库](https://github.com/zloirock/core-js) `escape`、`unescape` 方法的 TypeScript 实现。
 
 尽管 `escape` 和 `unescape` 方法在当前 web 标准中已被移除。
 
@@ -12,4 +12,4 @@
 
 `pnpm i escape-ts`
 
-`import { escape, unescape } from 'escape-ts'`
+`import { escapeString, unescapeString } from 'escape-ts'`

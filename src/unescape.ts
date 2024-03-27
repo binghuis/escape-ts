@@ -2,7 +2,7 @@
 // https://tc39.es/ecma262/#sec-unescape-string
 // https://github.com/zloirock/core-js?tab=readme-ov-file#ecmascript-string-and-regexp
 
-export function unescapeHtml(text: string) {
+export function unescapeString(text: string) {
   const fromCharCode = String.fromCharCode;
   const hex2 = /^[\da-f]{2}$/i;
   const hex4 = /^[\da-f]{4}$/i;
