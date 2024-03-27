@@ -1,7 +1,7 @@
 {
   "name": "escape-ts",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "JS 标准库方法 escape 和 unescape 的 TypeScript 实现。",
   "main": "index.js",
   "type": "module",
   "types": "./lib/index.d.ts",
