@@ -3,10 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:ui": "vitest --ui",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "build": "tsup",
+    "dev": "tsup --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.4.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
+  }
 }
