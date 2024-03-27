@@ -1,5 +1,6 @@
 // `escape` method
 // https://tc39.es/ecma262/#sec-escape-string
+// https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/es.escape.js
 
 const raw = /[\w*+\-./@]/;
 
@@ -9,7 +10,7 @@ const hex = function (code: number, length: number) {
   return result;
 };
 
-export const escapeHtml = (string: string) => {
+export function escapeHtml(string: string) {
   const str = string;
   let result = "";
   const length = str.length;
@@ -29,4 +30,4 @@ export const escapeHtml = (string: string) => {
     }
   }
   return result;
-};
+}

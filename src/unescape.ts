@@ -1,6 +1,5 @@
 // `unescape` method
 // https://tc39.es/ecma262/#sec-unescape-string
-
 // https://github.com/zloirock/core-js?tab=readme-ov-file#ecmascript-string-and-regexp
 
 export function unescapeHtml(text: string) {

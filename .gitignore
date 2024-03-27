@@ -12,6 +12,7 @@ node_modules
 dist
 *.local
 lib
+coverage
 
 # Editor directories and files
 .idea
